@@ -88,13 +88,37 @@ h2{
     height: 383px;
     margin-top: 41px;
     background-color: #F4F4F4;
+    gap:10px;
 }
 .box1{
     font-family: 'Poppins';
     font-weight: 600;
     font-size: 25px;
     line-height: 31.75px;
+    text-align: center;
+    width:245px;
+    height: 32px;
+
 }
+.box2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31.75px;
+    text-align: center;
+    width:165px;
+    height: 32px;
+}
+.box3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31.75px;
+    text-align: center;
+    width:215px;
+    height: 32px;
+}
+
 .work1{
     font-family: 'Inter';
     font-size: 18px;
@@ -102,8 +126,11 @@ h2{
     color: #7D7D7D;
     line-height: 26.31px;
     margin-top: 16px;
+    align-items: center;
+    width: 300px;
+    height: 78px;
 }
-.tetimonials{
+.testimonials{
     font-family: 'Inter';
     font-size: 18px;
     font-weight: 600;
@@ -115,13 +142,15 @@ h2{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 72px;
+    width:72px;
     height: 72px;
     background-color: #40DDB6;
     border-radius: 50%;
     margin-top: 10px;
+
+
 }
-.icon2 {
+.icon2{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -131,14 +160,14 @@ h2{
     border-radius: 50%;
     margin-top: 10px;
 }
-.icon3 {
+.icon3{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 72px;
     height: 72px;
     background-color: #40DDB6;
-    border-radius: 50%;
+    border-radius:50%;
     margin-top: 10px;
 }
 
@@ -202,4 +231,42 @@ h2{
     margin-top: 47px;
    
    
+}
+
+/* our team */
+.team{
+    width: 1220px;
+    height: 659px;
+    display: flex;
+    flex-direction: column;
+    margin: 130px auto;
+    align-items: center;
+}
+.people{
+    width: 1220px;
+    height: 532px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 41px;
+}
+.person1{
+    width: 386px;
+    height: 532px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.person2{
+    width: 386px;
+    height: 532px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.person3{
+    width: 386px;
+    height: 532px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
