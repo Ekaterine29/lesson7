@@ -49,12 +49,14 @@
 
 /* work process */
 .work{
-    margin-top: 235px;
+    width:1220px;
+    margin: 254px 350px;
     height: 510px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
+   
 }
 h4{
     font-family: 'Inter';
@@ -75,68 +77,54 @@ h2{
     width: 1220px;
     height: 383px;
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+    column-gap: 31px;
+    margin-bottom: 60px;
 }
+
 .boxes{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
+    justify-content: center;
+    /* text-align: center; */
     align-items: center;
-    padding: 58px 43px;
     width: 386px;
     height: 383px;
-    margin-top: 41px;
     background-color: #F4F4F4;
-    gap:10px;
+  
 }
 .box1{
     font-family: 'Poppins';
-    font-weight: 600;
     font-size: 25px;
     line-height: 31.75px;
     text-align: center;
     width:245px;
     height: 32px;
+    margin-bottom: 16px;
+    color: #37393f;
 
 }
-.box2{
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 31.75px;
-    text-align: center;
-    width:165px;
-    height: 32px;
-}
-.box3{
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 31.75px;
-    text-align: center;
-    width:215px;
-    height: 32px;
-}
+
 
 .work1{
     font-family: 'Inter';
     font-size: 18px;
-    font-weight: 400;
     color: #7D7D7D;
     line-height: 26.31px;
-    margin-top: 16px;
+    margin-bottom:37px;
     align-items: center;
     width: 300px;
     height: 78px;
+    
 }
 .testimonials{
     font-family: 'Inter';
     font-size: 18px;
-    font-weight: 600;
     color: #6B77E5;
     line-height: 21.78px;
-    margin-top: 37px;
+    margin-bottom:10px;
+    text-align: center;
 }
 .icon1{
     display: flex;
